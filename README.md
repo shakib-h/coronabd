@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a1b578c-85db-4f24-b6ad-4315fac9f4d7/deploy-status)](https://app.netlify.com/sites/coronabot/deploys)

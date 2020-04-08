@@ -78,7 +78,8 @@
         
         .stats_title {
             font-size: 1.5em;
-            padding-left: 10px;
+            line-height: 1.5em;
+            float: left;
         }
     }
 
@@ -92,7 +93,7 @@
 
     @include breakpoint(small) {
         display: block;
-        width: 20em;
+        width: 100%;
         max-width: 100%;
         margin: 0 auto _size(element-margin) auto;
 

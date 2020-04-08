@@ -40,53 +40,51 @@ const Banner = (props) => (
       <div onLoad={GetCoronaData()} className="stats_area">
         <ul className="statistics">
           <li className="style0">
-            <span className="icon fa-flag"></span>
             <strong>বাংলাদেশ</strong>
           </li>
           <li className="style1">
-            <span className="icon fa-code-fork"><span className="stats_title">মোট আক্রান্ত</span></span>
+            <div className="stats_title">মোট আক্রান্ত</div>
             <div className="stats_text"><strong id="country_cases">...</strong> জন</div>
           </li>
           <li className="style2">
-            <span className="icon fa-folder-open-o"><span className="stats_title">মোট সুস্থ</span></span>
+            <div className="stats_title">মোট সুস্থ</div>
             <div className="stats_text"><strong id="country_recovered">...</strong> জন</div>
           </li>
           <li className="style3">
-            <span className="icon fa-warning"><span className="stats_title">মৃত</span></span>
+            <div className="stats_title">মৃত</div>
             <div className="stats_text"><strong id="country_deaths">...</strong> জন</div>
           </li>
           <li className="style4">
-            <span className="icon fa-laptop"><span className="stats_title">চিকিৎসাধীন</span></span>
+            <div className="stats_title">চিকিৎসাধীন</div>
             <div className="stats_text"><strong id="country_active">...</strong> জন</div>
           </li>
           <li className="style5">
-            <span className="icon fa-diamond"><span className="stats_title">আজকে আক্রান্ত</span></span>
+            <div className="stats_title">আজকে আক্রান্ত</div>
             <div className="stats_text"><strong id="country_today_cases">...</strong> জন</div>
           </li>
         </ul>
         <ul className="statistics">
           <li className="style0">
-            <span className="icon fa-globe"></span>
             <strong>বিশ্ব</strong>
           </li>
           <li className="style1">
-            <span className="icon fa-code-fork"><span className="stats_title">মোট আক্রান্ত</span></span>
+            <div className="stats_title">মোট আক্রান্ত</div>
             <div className="stats_text"><strong id="global_cases">...</strong> জন</div>
           </li>
           <li className="style2">
-            <span className="icon fa-folder-open-o"><span className="stats_title">মোট সুস্থ</span></span>
+            <div className="stats_title">মোট সুস্থ</div>
             <div className="stats_text"><strong id="global_recovered">...</strong> জন</div>
           </li>
           <li className="style3">
-            <span className="icon fa-signal"><span className="stats_title">মৃত</span></span>
+            <div className="stats_title">মৃত</div>
             <div className="stats_text"><strong id="global_deaths">...</strong> জন</div>
           </li>
           <li className="style4">
-            <span className="icon fa-laptop"><span className="stats_title">চিকিৎসাধীন</span></span>
+            <div className="stats_title">চিকিৎসাধীন</div>
             <div className="stats_text"><strong id="global_active">...</strong> জন</div>
           </li>
           <li className="style5">
-            <span className="icon fa-diamond"><span className="stats_title">আজকে আক্রান্ত</span></span>
+            <div className="stats_title">আজকে আক্রান্ত</div>
             <div className="stats_text"><strong id="global_today_cases">...</strong> জন</div>
           </li>
         </ul>
