@@ -8,7 +8,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'করোনা ভাইরাস',
         short_name: 'করোনা',
@@ -18,12 +18,14 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
+    },
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline',
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-71769911-5',
       },
-    },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    }
   ],
 }
