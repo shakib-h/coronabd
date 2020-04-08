@@ -18,13 +18,6 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: [
-          'Baloo Da 2', // you can also specify font weights and styles
-        ],
-        display: 'swap'
-      },
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-71769911-5',
