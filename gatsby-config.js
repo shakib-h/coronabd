@@ -25,6 +25,10 @@ module.exports = {
         ],
         display: 'swap'
       },
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-71769911-5',
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
