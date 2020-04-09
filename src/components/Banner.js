@@ -17,7 +17,7 @@ function GetCoronaData() {
   }
 
   CoronaCountry().then((country) => {
-    console.log(country);
+    // console.log(country);
     document.getElementById("country_cases").innerHTML = toBengaliNum(country.cases);
     document.getElementById("country_recovered").innerHTML = toBengaliNum(country.recovered);
     document.getElementById("country_deaths").innerHTML = toBengaliNum(country.deaths);
@@ -25,7 +25,7 @@ function GetCoronaData() {
     document.getElementById("country_today_cases").innerHTML = toBengaliNum(country.todayCases);
   })
   CoronaGlobal().then((global) => {
-    console.log(global);
+    // console.log(global);
     document.getElementById("global_cases").innerHTML = toBengaliNum(global.cases);
     document.getElementById("global_recovered").innerHTML = toBengaliNum(global.recovered);
     document.getElementById("global_deaths").innerHTML = toBengaliNum(global.deaths);
